@@ -8,11 +8,15 @@ body {
 
 header {
     font-weight: bold; /* Added bold font for header */
-    background: linear-gradient(135deg, #6200B3 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #2d006c 0%, #3f089d 100%);
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 8px 25px rgba(98, 0, 179, 0.4), 0 4px 15px rgba(124, 58, 237, 0.3);
+}
+
+header h1 {
+    font-size: 56px;
 }
 
 main {
@@ -29,7 +33,7 @@ nav a {
     text-align: center; /* vycentrování doprostřed */
     text-decoration: none; /* odstraní podtržení z textů */
     color: #ffffff; /* bílá barva textu */
-    background: #6200B3; /* fialové pozadí */
+    background: #2d006c; /* fialové pozadí */
     padding: 10px 20px; /* přidá vnitřní odsazení */
     margin: 0 10px; /* přidá mezery mezi odkazy */
     border-radius: 5px; /* zaoblené rohy */
@@ -38,20 +42,20 @@ nav a {
 }
 
 nav a:hover {
-    background: #7c3aed; /* světlejší fialová barva při najetí myší */
+    background: #3f089d; /* světlejší fialová barva při najetí myší */
 }
 
 nav a.active {
-    background: #9d4edd; /* ještě světlejší fialová pro aktivní stránku */
+    background: #6230b7; /* ještě světlejší fialová pro aktivní stránku */
     font-weight: bold;
-    box-shadow: 0 4px 12px rgba(157, 78, 221, 0.6); /* silnější svítivý stín */
+    box-shadow: 0 4px 12px rgba(63, 8, 157, 0.6); /* silnější svítivý stín */
 }
 
 footer {
     font-weight: bold; /* tučný text */
     text-align: center; /* vycentrování doprostřed */
     padding: 20px 0; /* přidá vnitřní odsazení */
-    background: linear-gradient(135deg, #6200B3 0%, #7c3aed 100%); /* fialový gradient */
+    background: linear-gradient(180deg, #1d0144 0%, #230152 100%); /* fialový gradient */
     color: #ffffff; /* bílá barva textu */
     position: relative; /* změněno na relative pro běžné umístění */
     bottom: 0; 
@@ -72,7 +76,7 @@ footer {
 }
 
 .profile-photo {
-    background: linear-gradient(135deg, #6200B3 0%, #7c3aed 100%);
+    background: linear-gradient(0deg, #1d0144 0%, #3f089d 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +101,7 @@ footer {
 }
 
 .profile-info h2 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 28px;
     margin-bottom: 20px;
     text-align: center;
@@ -110,10 +114,10 @@ footer {
 }
 
 .profile-info h3 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 18px;
     margin-bottom: 12px;
-    border-bottom: 2px solid #6200B3;
+    border-bottom: 2px solid #2d006c;
     padding-bottom: 8px;
 }
 
@@ -133,7 +137,7 @@ footer {
     background: #f0f0f0;
     padding: 10px 15px;
     margin: 8px 0;
-    border-left: 4px solid #6200B3;
+    border-left: 4px solid #2d006c;
     color: #333333;
     border-radius: 3px;
 }
@@ -165,11 +169,11 @@ footer {
 }
 
 .projects-container h2 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 32px;
     text-align: center;
     margin-bottom: 40px;
-    border-bottom: 3px solid #6200B3;
+    border-bottom: 3px solid #2d006c;
     padding-bottom: 15px;
 }
 
@@ -190,7 +194,7 @@ footer {
 
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 6px 20px rgba(98, 0, 179, 0.2);
+    box-shadow: 0 6px 20px rgba(45, 0, 108, 0.2);
 }
 
 .project-header {
@@ -200,6 +204,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(135deg, #2d006c 0%, #3f089d 100%);
 }
 
 .project-header h3 {
@@ -220,7 +225,7 @@ footer {
 }
 
 .project-content strong {
-    color: #6200B3;
+    color: #2d006c;
 }
 
 .project-tags {
@@ -232,17 +237,17 @@ footer {
 
 .tag {
     background: #f0f0f0;
-    color: #6200B3;
+    color: #2d006c;
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 12px;
     font-weight: bold;
-    border: 1px solid #6200B3;
+    border: 1px solid #2d006c;
 }
 
 .download-btn {
     display: inline-block;
-    background: linear-gradient(135deg, #6200B3 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #2d006c 0%, #3f089d 100%);
     color: #ffffff;
     padding: 12px 25px;
     border-radius: 25px;
@@ -251,14 +256,14 @@ footer {
     font-size: 14px;
     margin: 15px 0;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(98, 0, 179, 0.3);
+    box-shadow: 0 4px 12px rgba(45, 0, 108, 0.3);
     border: 2px solid transparent;
 }
 
 .download-btn:hover {
-    background: linear-gradient(135deg, #7c3aed 0%, #9d4edd 100%);
+    background: linear-gradient(135deg, #3f089d 0%, #2d006c 100%);
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(98, 0, 179, 0.5);
+    box-shadow: 0 6px 20px rgba(45, 0, 108, 0.5);
     border-color: #ffffff;
 }
 
@@ -289,11 +294,11 @@ footer {
 }
 
 .contact-container h2 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 32px;
     text-align: center;
     margin-bottom: 40px;
-    border-bottom: 3px solid #6200B3;
+    border-bottom: 3px solid #2d006c;
     padding-bottom: 15px;
 }
 
@@ -307,14 +312,14 @@ footer {
     background: #f9f9f9;
     padding: 30px;
     border-radius: 10px;
-    border-left: 4px solid #6200B3; 
+    border-left: 4px solid #2d006c; 
 }
 
 .contact-info h3 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 22px;
     margin-bottom: 25px;
-    border-bottom: 2px solid #9d4edd;
+    border-bottom: 2px solid #3f089d;
     padding-bottom: 10px;
 }
 
@@ -323,7 +328,7 @@ footer {
 }
 
 .info-item h4 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 16px;
     margin-bottom: 8px;
 }
@@ -335,19 +340,19 @@ footer {
 }
 
 .info-item a {
-    color: #6200B3;
+    color: #2d006c;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .info-item a:hover {
-    color: #7c3aed;
+    color: #3f089d;
     text-decoration: underline;
 }
 
 .social-links h4 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 16px;
     margin-bottom: 15px;
     margin-top: 30px;
@@ -364,7 +369,7 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #6200B3 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #2d006c 0%, #3f089d 100%);
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 20px;
@@ -372,27 +377,27 @@ footer {
     font-weight: bold;
     font-size: 13px;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(98, 0, 179, 0.3);
+    box-shadow: 0 2px 8px rgba(45, 0, 108, 0.3);
 }
 
 .social-btn:hover {
-    background: linear-gradient(135deg, #7c3aed 0%, #9d4edd 100%);
+    background: linear-gradient(135deg, #3f089d 0%, #2d006c 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(98, 0, 179, 0.5);
+    box-shadow: 0 4px 15px rgba(45, 0, 108, 0.5);
 }
 
 .contact-form {
     background: #f9f9f9;
     padding: 30px;
     border-radius: 10px;
-    border-right: 4px solid #6200B3;
+    border-right: 4px solid #2d006c;
 }
 
 .contact-form h3 {
-    color: #6200B3;
+    color: #2d006c;
     font-size: 22px;
     margin-bottom: 25px;
-    border-bottom: 2px solid #9d4edd;
+    border-bottom: 2px solid #3f089d;
     padding-bottom: 10px;
 }
 
@@ -402,7 +407,7 @@ footer {
 
 .form-group label {
     display: block;
-    color: #6200B3;
+    color: #2d006c;
     font-weight: bold;
     margin-bottom: 8px;
     font-size: 14px;
@@ -423,13 +428,13 @@ footer {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #6200B3;
-    box-shadow: 0 0 8px rgba(98, 0, 179, 0.2);
+    border-color: #2d006c;
+    box-shadow: 0 0 8px rgba(45, 0, 108, 0.2);
 }
 
 .submit-btn {
     width: 100%;
-    background: linear-gradient(135deg, #6200B3 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #2d006c 0%, #3f089d 100%);
     color: #ffffff;
     padding: 14px 25px;
     border: none;
@@ -438,13 +443,13 @@ footer {
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(98, 0, 179, 0.3);
+    box-shadow: 0 4px 12px rgba(45, 0, 108, 0.3);
 }
 
 .submit-btn:hover {
-    background: linear-gradient(135deg, #7c3aed 0%, #9d4edd 100%);
+    background: linear-gradient(135deg, #3f089d 0%, #2d006c 100%);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(98, 0, 179, 0.5);
+    box-shadow: 0 6px 20px rgba(45, 0, 108, 0.5);
 }
 
 .submit-btn:active {
@@ -469,6 +474,6 @@ footer {
     .contact-info,
     .contact-form {
         border: none;
-        border-top: 4px solid #6200B3;
+        border-top: 4px solid #2d006c;
     }
 }
