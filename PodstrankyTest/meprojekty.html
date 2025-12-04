@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mé projekty</title>
+    <link rel="stylesheet" href="styly/styly.css">
+</head>
+<body>
+    <header>
+        <h1>Mé Projekty</h1>
+    </header>
+
+    <!--Navigační pole-->
+    <nav class="navbar">
+        <a href="mainstranka.html">Profil</a>
+        <a href="meprojekty.html" class="active">Mé projekty</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <!--Hlavní část stránky-->
+    <main>
+        <div class="projects-container">
+            <h2>Moje nejlepší projekty</h2>
+            
+            <!--Grid všech projektů (momentálně jen jednoho)-->
+            <div class="projects-grid">
+
+                <!-- Projekt 1 - Mindlock -->
+                <div class="project-card">
+                    <div class="project-header" style="background: linear-gradient(135deg, #6200B3 0%, #7c3aed 100%);">
+                        <h3>Game Development</h3>
+                    </div>
+                    <div class="project-content">
+                        <p><strong>Technologie:</strong> C#, Unity</p>
+                        <p>Vytvořil jsem společně se svým týmem GurtDev hru Mindlock, se kterou jsme se dostali v soutěži Ctrl-Game do finále.</p>
+                        <a href="soubory_na_stahnuti/Mindlock.zip" download="Mindlock.zip" class="download-btn">⬇ Stáhnout hru</a>
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">Gameplay</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!--Zápatí-->
+    <footer>
+        <p>&copy; 2025 Mé Projekty. Všechna práva vyhrazena.</p>
+    </footer>
+</body>
+</html>
